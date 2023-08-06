@@ -1,0 +1,65 @@
+import tkinter as tk
+from tkinter import *
+
+root=Tk()
+
+width = 1000
+height = 600
+root.geometry(f"{width}x{height}")
+
+L1 = Entry(root, width=6)
+L1.grid(column=0,row=0)
+L1 = Entry(root, width=6)
+L1.grid(column=0,row=1)
+L1 = Entry(root, width=6)
+L1.grid(column=0,row=2)
+L1 = Entry(root, width=6)
+L1.grid(column=0,row=3)
+L1 = Entry(root, width=6)
+L1.grid(column=0,row=4)
+
+L1 = Entry(root, width=6)
+L1.grid(column=1,row=0)
+L1 = Entry(root, width=6)
+L1.grid(column=1,row=1)
+L1 = Entry(root, width=6)
+L1.grid(column=1,row=2)
+L1 = Entry(root, width=6)
+L1.grid(column=1,row=3)
+L1 = Entry(root, width=6)
+L1.grid(column=1,row=4)
+
+L1 = Entry(root, width=6)
+L1.grid(column=2,row=0)
+L1 = Entry(root, width=6)
+L1.grid(column=2,row=1)
+L1 = Entry(root, width=6)
+L1.grid(column=2,row=2)
+L1 = Entry(root, width=6)
+L1.grid(column=2,row=3)
+L1 = Entry(root, width=6)
+L1.grid(column=2,row=4)
+
+L1 = Entry(root, width=6)
+L1.grid(column=3,row=0)
+L1 = Entry(root, width=6)
+L1.grid(column=3,row=1)
+L1 = Entry(root, width=6)
+L1.grid(column=3,row=2)
+L1 = Entry(root, width=6)
+L1.grid(column=3,row=3)
+L1 = Entry(root, width=6)
+L1.grid(column=3,row=4)
+
+L1 = Entry(root, width=6)
+L1.grid(column=4,row=0)
+L1 = Entry(root, width=6)
+L1.grid(column=4,row=1)
+L1 = Entry(root, width=6)
+L1.grid(column=4,row=2)
+L1 = Entry(root, width=6)
+L1.grid(column=4,row=3)
+L1 = Entry(root, width=6)
+L1.grid(column=4,row=4)
+
+root.mainloop()
